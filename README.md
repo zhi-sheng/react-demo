@@ -11,4 +11,4 @@
   ### RoutesController.js： 路由控制
   ### SingleUser.js： 單一User的Repos顯示
   ### SingleRepository.js： 該User的單一Repos顯示
-  #### 將搜尋表單置於每頁上方以便搜尋，輸入欲搜尋的使用者名稱後，跳轉至/users/{username}/repos頁面，即由 RoutesController.js 控制 render SingleUser.js頁面。進入頁面時顯示10筆資料(repos)，滑動至頁面底部時額外加載另外10筆資料。點選其一 repos 方框後切換至/users/{username}/repos/{repo}，即 render SingleRepository頁面，顯示該repo資訊。並在各單一repo頁面提供回到repos列表按鈕。
+  #### 將搜尋表單置於每頁上方以便搜尋，輸入欲搜尋的使用者名稱後，跳轉至/users/{username}/repos頁面，即由 RoutesController.js 控制 render SingleUser.js頁面。進入頁面時顯示10筆資料(repos)，滑動至頁面底部時額外加載另外10筆資料。點選其一 repos 方框後切換至/users/{username}/repos/{repo}，即 render SingleRepository頁面，顯示該repo資訊。並在各單一repo頁面提供回到repos列表按鈕。而在單一repo頁面點選repo資訊方框則跳轉至該repo的GitHub頁面。
